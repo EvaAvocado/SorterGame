@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ab04241a4094b2d98c07b9ba1d3fcef, type: 3}
+  m_Name: DefaultGameConfig
+  m_EditorClassIdentifier: 
+  <PlayerHealth>k__BackingField: 10
+  <ShapesToWinRange>k__BackingField: {x: 30, y: 35}
+  <SpawnDelayRange>k__BackingField: {x: 0.8, y: 1.5}
+  <ShapeSpeedRange>k__BackingField: {x: 2, y: 4}
+  <AllShapes>k__BackingField:
+  - {fileID: 11400000, guid: 4c7ea160d18a3414ca35ea7cdeb3055a, type: 2}
+  - {fileID: 11400000, guid: 116e72a70cd5d684395d1b418928cd3e, type: 2}
+  - {fileID: 11400000, guid: a3279f66151ab6a4cb477bdc4ec4f91f, type: 2}
+  - {fileID: 11400000, guid: 6da1b4b5bc3f23545b558461aafc4441, type: 2}
+  <Animations>k__BackingField:
+    ShapeAppearDuration: 0.3
+    ShapeGrabScale: 1.2
+    ShapeGrabDuration: 0.15
+    ReturnToLaneDuration: 0.3
+    AnimateIntoSlotMoveDuration: 0.2
+    AnimateIntoSlotScaleDuration: 0.25
+    UIPulseDuration: 0.2
+    ScorePulseScale: 1.25
+    HealthPulseScale: 0.8
